@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.AI.Navigation;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -9,12 +10,14 @@ public class Movement : MonoBehaviour
     public Camera camera;
     private NavMeshAgent agent;
     private RaycastHit hit;
-    private float moveSpeed = 15f;
+    private float moveSpeed = 25f;
+    public NavMeshSurface navMesh;
 
     // Start is called before the first frame update
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
+        navMesh.BuildNavMesh();
     }
 
     // Update is called once per frame
