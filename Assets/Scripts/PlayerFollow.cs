@@ -8,7 +8,10 @@ public class PlayerFollow : MonoBehaviour
     public CameraShake cameraShake;
     void Update()
     {
-        transform.position = Vector3.MoveTowards(this.transform.position, Player.transform.position, 10f * Time.deltaTime);
+        if (gameObject != null)
+        {
+            transform.position = Vector3.MoveTowards(this.transform.position, Player.transform.position, 10f * Time.deltaTime);
+        }
     }
 
     
@@ -19,6 +22,9 @@ public class PlayerFollow : MonoBehaviour
         {
             Debug.Log("collided");
             StartCoroutine(cameraShake.Shake(.14f, .5f));
+
+
+            collision.gameObject.SetActive(false);
         }
     }
 

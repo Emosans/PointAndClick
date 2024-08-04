@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\shrey\\OneDrive\\Desktop\\Unity\\NavMeshes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A548F53B-BE8E-563A-2D5E-40260DAC8D21}|Assembly-CSharp.csproj|c:\\users\\shrey\\onedrive\\desktop\\unity\\navmeshes\\assets\\scripts\\camerashake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A548F53B-BE8E-563A-2D5E-40260DAC8D21}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerashake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A548F53B-BE8E-563A-2D5E-40260DAC8D21}|Assembly-CSharp.csproj|C:\\Users\\shrey\\OneDrive\\Desktop\\Unity\\NavMeshes\\assets\\scripts\\playerfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A548F53B-BE8E-563A-2D5E-40260DAC8D21}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A548F53B-BE8E-563A-2D5E-40260DAC8D21}|Assembly-CSharp.csproj|c:\\users\\shrey\\onedrive\\desktop\\unity\\navmeshes\\assets\\scripts\\camerashake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A548F53B-BE8E-563A-2D5E-40260DAC8D21}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerashake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A548F53B-BE8E-563A-2D5E-40260DAC8D21}|Assembly-CSharp.csproj|C:\\Users\\shrey\\OneDrive\\Desktop\\Unity\\NavMeshes\\assets\\scripts\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,11 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CameraShake.cs",
               "DocumentMoniker": "C:\\Users\\shrey\\OneDrive\\Desktop\\Unity\\NavMeshes\\Assets\\Scripts\\CameraShake.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraShake.cs",
@@ -39,15 +39,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "PlayerFollow.cs",
               "DocumentMoniker": "C:\\Users\\shrey\\OneDrive\\Desktop\\Unity\\NavMeshes\\Assets\\Scripts\\PlayerFollow.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerFollow.cs",
               "ToolTip": "C:\\Users\\shrey\\OneDrive\\Desktop\\Unity\\NavMeshes\\Assets\\Scripts\\PlayerFollow.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerFollow.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA5AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T06:13:17.328Z"
+              "WhenOpened": "2024-08-03T06:13:17.328Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
