@@ -4,17 +4,19 @@ using UnityEngine;
 
 public class PlayerFollow : MonoBehaviour
 {
-    public GameObject Player;
+    public Transform Player;
     public CameraShake cameraShake;
-    void Update()
+
+    void Start()
     {
-        if (gameObject != null)
-        {
-            transform.position = Vector3.MoveTowards(this.transform.position, Player.transform.position, 10f * Time.deltaTime);
-        }
+        Player = GameObject.FindWithTag("Player").transform;
+        cameraShake = Camera.main.GetComponent<CameraShake>();
     }
 
-    
+    void Update()
+    {
+        transform.position = Vector3.MoveTowards(transform.position, Player.transform.position, 10f * Time.deltaTime);
+    }
 
     void OnCollisionEnter(Collision collision)
     {

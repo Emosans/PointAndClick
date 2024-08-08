@@ -9,7 +9,7 @@ public class bulletShoot : MonoBehaviour
     public Transform bulletSpawnPoint2;
     public Transform bulletSpawnPoint3;
     public Transform bulletSpawnPoint4;
-    public float bulletSpeed = 10f;
+    public float bulletSpeed = 15f;
 
     void Update()
     {
@@ -28,4 +28,6 @@ public class bulletShoot : MonoBehaviour
             bullet4.GetComponent<Rigidbody>().velocity = -bulletSpawnPoint4.right * bulletSpeed;
         }
     }
+
+    
 }

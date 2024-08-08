@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\shrey\\OneDrive\\Desktop\\Unity\\NavMeshes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A548F53B-BE8E-563A-2D5E-40260DAC8D21}|Assembly-CSharp.csproj|C:\\Users\\shrey\\OneDrive\\Desktop\\Unity\\NavMeshes\\assets\\scripts\\playerfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A548F53B-BE8E-563A-2D5E-40260DAC8D21}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A548F53B-BE8E-563A-2D5E-40260DAC8D21}|Assembly-CSharp.csproj|c:\\users\\shrey\\onedrive\\desktop\\unity\\navmeshes\\assets\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A548F53B-BE8E-563A-2D5E-40260DAC8D21}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A548F53B-BE8E-563A-2D5E-40260DAC8D21}|Assembly-CSharp.csproj|c:\\users\\shrey\\onedrive\\desktop\\unity\\navmeshes\\assets\\scripts\\camerashake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A548F53B-BE8E-563A-2D5E-40260DAC8D21}|Assembly-CSharp.csproj|C:\\Users\\shrey\\OneDrive\\Desktop\\Unity\\NavMeshes\\assets\\scripts\\camerashake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A548F53B-BE8E-563A-2D5E-40260DAC8D21}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerashake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A548F53B-BE8E-563A-2D5E-40260DAC8D21}|Assembly-CSharp.csproj|C:\\Users\\shrey\\OneDrive\\Desktop\\Unity\\NavMeshes\\assets\\scripts\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A548F53B-BE8E-563A-2D5E-40260DAC8D21}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A548F53B-BE8E-563A-2D5E-40260DAC8D21}|Assembly-CSharp.csproj|C:\\Users\\shrey\\OneDrive\\Desktop\\Unity\\NavMeshes\\assets\\scripts\\playerfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A548F53B-BE8E-563A-2D5E-40260DAC8D21}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnemySpawner.cs",
+              "DocumentMoniker": "C:\\Users\\shrey\\OneDrive\\Desktop\\Unity\\NavMeshes\\Assets\\Scripts\\EnemySpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemySpawner.cs",
+              "ToolTip": "C:\\Users\\shrey\\OneDrive\\Desktop\\Unity\\NavMeshes\\Assets\\Scripts\\EnemySpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemySpawner.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T06:43:09.719Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -32,35 +45,21 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraShake.cs",
               "ToolTip": "C:\\Users\\shrey\\OneDrive\\Desktop\\Unity\\NavMeshes\\Assets\\Scripts\\CameraShake.cs",
               "RelativeToolTip": "Assets\\Scripts\\CameraShake.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAqAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T06:35:47.515Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-03T06:35:47.515Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "PlayerFollow.cs",
               "DocumentMoniker": "C:\\Users\\shrey\\OneDrive\\Desktop\\Unity\\NavMeshes\\Assets\\Scripts\\PlayerFollow.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerFollow.cs",
               "ToolTip": "C:\\Users\\shrey\\OneDrive\\Desktop\\Unity\\NavMeshes\\Assets\\Scripts\\PlayerFollow.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerFollow.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAyAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T06:13:17.328Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Movement.cs",
-              "DocumentMoniker": "C:\\Users\\shrey\\OneDrive\\Desktop\\Unity\\NavMeshes\\Assets\\Scripts\\Movement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Movement.cs",
-              "ToolTip": "C:\\Users\\shrey\\OneDrive\\Desktop\\Unity\\NavMeshes\\Assets\\Scripts\\Movement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Movement.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T06:56:13.898Z"
+              "WhenOpened": "2024-08-03T06:13:17.328Z"
             }
           ]
         }
